@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Might Ducks Hockey League</title>
+    <link rel="stylesheet" type="text/css" href="own.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="design2.css" /> -->
+    <!-- <link rel="stylesheet" type="text/css" href="own.css" /> -->
+  </head>
+  <body>
+    <nav>
+      <a href="./index.html">Home</a>
+      <a href="./about.html">About</a>
+      <a href="./rules.html">Rules</a>
+      <a href="./gameinformation.html"
+        >Game Information</a
+      >
+      <a href="./contact.html">Contact</a>
+      <a href="./register.html">Register</a>
+    </nav>
+    <header>
+      <img
+        id="logo"
+        src="./assets/LogoMightyducks-01.png"
+        alt="jugadores de hockey"
+      />
+    </header>
+    <main>
+      <h2 class="encabezado">Register</h2>
+      <section>
+        <h1 id="titulo">Mighty Ducks Hockey League</h1>
+        <div class="clase2">
+          <form action="./show_data.html">
+            <label for="first-name">Player's First Name: </label>
+            <input type="text" id="first-name" name="first-name" required>
+            <label for="last-name">Last Name: </label>
+            <input type="text" id="last-name" name="last-name" required>
+            <label for="street-address">Street Adress: </label>
+            <input type="text" id="street-address" name="street-address" required>
+            <label for="city">City: </label>
+            <input type="text" id="city" name="city" required>
+            <label for="zipcode">Zip Code: </label>
+            <input type="text" id="zipcode" name="zipcode" required>
+            <label for="birthdate">Birth Date(dd/mm/yyyy): </label>
+            <input type="text" id="birthdate" name="birthdate" required>
+            <fieldset>
+                <legend>Gender</legend>
+                <label>
+                    Male
+                    <input type="radio" name="gender" value="M">
+                </label>
+                <label>
+                    Female
+                    <input type="radio" name="gender" value="F">
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Grade</legend>
+                <label>
+                    Pre-School
+                    <input type="radio" name="grade" value="pre-school">
+                </label>
+                <label>
+                    1st
+                    <input type="radio" name="grade" value="1st">
+                </label>
+                <label>
+                    2nd
+                    <input type="radio" name="grade" value="2nd">
+                </label>
+                <label>
+                    3rd
+                    <input type="radio" name="grade" value="3rd">
+                </label>
+                <label>
+                    4th
+                    <input type="radio" name="grade" value="4th">
+                </label>
+                <label>
+                    5th
+                    <input type="radio" name="grade" value="5th">
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Which elementary school do you live near?</legend>
+                <h3>Closest School:</h3>
+                <label>
+                    AJ Katzenmaier
+                    <input type="checkbox" name="closest-school" value="aj">
+                </label>
+                <label>
+                    Greenbay
+                    <input type="checkbox" name="closest-school" value="gb">
+                </label>
+                <label>
+                    Howard A Yeager
+                    <input type="checkbox" name="closest-school" value="hay">
+                </label>
+                <label>
+                    Marjorie P Hart
+                    <input type="checkbox" name="closest-school" value="mph">
+                </label>
+                <label>
+                    North Elementary
+                    <input type="checkbox" name="closest-school" value="ne">
+                </label>
+                <label>
+                    South Elementary
+                    <input type="checkbox" name="closest-school" value="se">
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>What position(s) do you normally play? (check all that apply)</legend>
+                <label>
+                    Forward
+                    <input type="checkbox" name="position" value="F">
+                </label>
+                <label>
+                    Midfield
+                    <input type="checkbox" name="position" value="M">
+                </label>
+                <label>
+                    Defense
+                    <input type="checkbox" name="position" value="D">
+                </label>
+                <label>
+                    Goalkeeper
+                    <input type="checkbox" name="position" value="G">
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Uniform Size</legend>
+                <label>
+                    Goalkeeper
+                    <input type="radio" name="uniformsize" value="GK">
+                </label>
+                <label>
+                    Youth Small
+                    <input type="radio" name="uniformsize" value="YS">
+                </label>
+                <label>
+                    Youth Medium
+                    <input type="radio" name="uniformsize" value="YM">
+                </label>
+                <label>
+                    Youth Large
+                    <input type="radio" name="uniformsize" value="YL">
+                </label>
+                <label>
+                    Small 
+                    <input type="radio" name="uniformsize" value="S">
+                </label>
+                <label>
+                    Medium
+                    <input type="radio" name="uniformsize" value="M">
+                </label>
+                <label>
+                    Large
+                    <input type="radio" name="uniformsize" value="L">
+                </label>
+                <label>
+                    Extra-Large
+                    <input type="radio" name="uniformsize" value="EL">
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Permissions to play</legend>
+                <p>
+                    I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the “League” accepting the registrant for its hockey programs and activities, | hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers,including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities, which transportation by signing below, I here by agree and authorize the above. In addition, by signing below, also acknowledge that I have read the cancellation policy and agree to its terms.
+                </p>
+                <input type="checkbox" name="confirmation" required>
+            </fieldset>
+            <input type="submit">
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__addr">
+        <h2>Contact</h2>
+
+        <address>
+          <p>
+            Michael Randall, League Cordinator -
+            <a href="tel:6306908132">(630) 690-8132</a>
+          </p>
+
+          <a class="footer__btn" href="mailto:michael.randall@chihockey.org">Email Us</a>
+        </address>
+      </div>
+
+      <ul class="footer__nav">
+        <li class="nav__item">
+          <h2 class="nav__title">Media</h2>
+
+          <ul class="nav__ul">
+            <li>
+              <a href="#">Online</a>
+            </li>
+
+            <li>
+              <a href="#">Print</a>
+            </li>
+
+            <li>
+              <a href="#">Alternative Ads</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav__item nav__item--extra">
+          <h2 class="nav__title">Technology</h2>
+
+          <ul class="nav__ul nav__ul--extra">
+            <li>
+              <a href="#">Hardware Design</a>
+            </li>
+
+            <li>
+              <a href="#">Software Design</a>
+            </li>
+
+            <li>
+              <a href="#">Digital Signage</a>
+            </li>
+
+            <li>
+              <a href="#">Automation</a>
+            </li>
+
+            <li>
+              <a href="#">Artificial Intelligence</a>
+            </li>
+
+            <li>
+              <a href="#">IoT</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav__item">
+          <h2 class="nav__title">Legal</h2>
+
+          <ul class="nav__ul">
+            <li>
+              <a href="#">Privacy Policy</a>
+            </li>
+
+            <li>
+              <a href="#">Terms of Use</a>
+            </li>
+
+            <li>
+              <a href="#">Sitemap</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <div class="legal">
+        <p>&copy; 2022 Mighty Ducks Hockey League. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
